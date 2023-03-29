@@ -1,0 +1,27 @@
+{
+	"name": "scripts-and-styles-loader",
+	"version": "0.0.1",
+	"description": "A simple alternative for dynamic importing JS and CSS files.",
+	"author": "Shahab Movahhedi <dev@shmovahhedi.com>",
+	"license": "MIT",
+	"type": "module",
+	"source": "index.ts",
+	"exports": {
+		"require": "./dist/index.cjs",
+		"default": "./dist/index.modern.js"
+	},
+	"main": "./dist/index.cjs",
+	"module": "./dist/index.module.js",
+	"unpkg": "./dist/index.umd.js",
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "microbundle",
+		"dev": "microbundle watch"
+	},
+	"devDependencies": {
+		"microbundle": "^0.15.1",
+		"typescript": "^5.0.2"
+	}
+}
