@@ -4,6 +4,14 @@
 	"description": "A simple alternative for dynamic importing JS and CSS files.",
 	"author": "Shahab Movahhedi <dev@shmovahhedi.com>",
 	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/movahhedi/scripts-and-styles-loader"
+	},
+	"bugs": {
+		"url": "https://github.com/movahhedi/scripts-and-styles-loader/issues"
+	},
+	"homepage": "https://github.com/movahhedi/scripts-and-styles-loader#readme",
 	"type": "module",
 	"source": "index.ts",
 	"exports": {
